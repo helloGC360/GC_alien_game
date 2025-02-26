@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="website icon" type="png" href="img/rock.png" >
+  <head>
+
+<body>
+  <audio id="hit" src="music/hit.mp3" type="mp3"></audio>
+<div class="container">
+  <div class="banner" id="banner">
+    <div>
+    <h1>!! Time Out !!</h1><br>
+    <h3 id="bansc"></h3>
+    </div>
+    <button onclick="rmbanner()">Play Again</button>
+  </div>
+  
+  
+  
+  <div class="sc">
+    <p id="score"></p><p id="time"></p>
+  </div>
+  <div class="game" id="bord">
+    <div class="m alian" id=alien></div>
+    <div class="m rock" id="rock"></div>
+  </div>
+  
+  <div class="ctrl">
+    <div class="mid1">
+    <button class="s u" id="u" onclick="move(1)"><h2>></h2></button>
+    </div>
+    <div class="mid">
+     <button class="s l" id="l"onclick="move(2)"><h2><</h2></button>
+     <button class="pause" id="pause" onclick="pause()"></button>
+     <button class="s r" id="r" onclick="move(3)"><h2>></h2></button>
+    </div>
+    <div class="mid1">
+    <button class="s d" id="d" onclick="move(4)"><h2>></h2></button>
+    </div>
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
+
+</html>
