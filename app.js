@@ -171,7 +171,7 @@ if(min==0 &&sec<=10){
   disable();
   }
   time.innerText=`time : ${min}:${sec}`;
-  },400);
+  },1000);
 }
 
   let flag=1;
