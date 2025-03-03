@@ -139,7 +139,7 @@
     }
     .banner div{
       width: 350px;
-      height: 200px;
+      height: 250px;
       background-image: radial-gradient(black,transparent);
       display: flex;
       flex-direction: column;
