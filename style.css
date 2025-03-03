@@ -55,8 +55,8 @@
     .ctrl{
       width: 250px;
       height: 200px;
+      background:yellow;
       margin-top: 20px;
-      background:red;
       display: flex;
       flex-direction:column;
       align-items: center;
