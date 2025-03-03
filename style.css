@@ -95,14 +95,14 @@
     }
     
     .mid{
-      width:100%;
+      width:250px;
       height:55px;
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
     .mid1{
-      width: 100%;
+      width: 250px;
       height:55px;
       display: flex;
       justify-content: center;
