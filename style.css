@@ -148,6 +148,7 @@
 
   .banner add{
      margin-top:20px;
+     background:gray;
   }
     
     @keyframes upd{
