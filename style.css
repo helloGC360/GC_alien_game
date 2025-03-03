@@ -138,8 +138,8 @@
       box-shadow:0px 0px 15px black inset;
     }
     .banner div{
-      width: 250px;
-      height: 100px;
+      width: 350px;
+      height: 200px;
       background-image: radial-gradient(black,transparent);
       display: flex;
       flex-direction: column;
