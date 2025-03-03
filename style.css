@@ -5,6 +5,7 @@
      body{
        width: 100vw;
        height: 100vh;
+       background:#000;
        display: flex;
        justify-content: center;
       }
@@ -61,7 +62,6 @@
       background:transparent;
       margin-top: 20px;
       display: flex;
-      flex-wrap: wrap;
       align-items: center;
       justify-content:center;
     }
